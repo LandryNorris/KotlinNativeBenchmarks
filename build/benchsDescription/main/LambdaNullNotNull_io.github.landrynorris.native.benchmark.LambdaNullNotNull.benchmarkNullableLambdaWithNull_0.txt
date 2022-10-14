@@ -1,0 +1,3 @@
+benchmark: io.github.landrynorris.native.benchmark.LambdaNullNotNull.benchmarkNullableLambdaWithNull
+configuration: iterations=10, warmups=3, iterationTime=1000, iterationTimeUnit=ms, outputTimeUnit=sec, mode=thrpt, nativeFork=perBenchmark, nativeGCAfterIteration=false
+parameters: {}

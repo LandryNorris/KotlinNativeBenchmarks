@@ -1,0 +1,8 @@
+package=constant
+language=C
+
+---
+
+static double constant10() {
+    return 10.0;
+}

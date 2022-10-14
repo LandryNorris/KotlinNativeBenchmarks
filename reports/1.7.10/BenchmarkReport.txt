@@ -1,0 +1,15 @@
+Benchmark                                                 Mode  Cnt          Score          Error    Units
+Benchmark.benchmarkEmptyMethod                           thrpt   10  772451381.857 ± 11530834.755  ops/sec
+CallMethods.benchmarkExtensionMethod                     thrpt   10   18549396.291 ±  2144566.575  ops/sec
+CallMethods.benchmarkInstanceMethod                      thrpt   10   21088755.857 ±   131405.165  ops/sec
+CallMethods.benchmarkObjectMethod                        thrpt   10   16825359.027 ±  2343420.289  ops/sec
+Fibonacci.benchmarkFibonacciC                            thrpt   10          3.097 ±        0.059  ops/sec
+Fibonacci.benchmarkFibonacci                             thrpt   10          3.465 ±        0.026  ops/sec
+LambdaNullNotNull.benchmarkNotNullableLambdaWithEmpty    thrpt   10  606608023.002 ±   961071.357  ops/sec
+LambdaNullNotNull.benchmarkNotNullableLambdaWithNotNull  thrpt   10    9031753.079 ±   129513.712  ops/sec
+LambdaNullNotNull.benchmarkNullableLambdaWithNotNull     thrpt   10    8879459.256 ±   299421.665  ops/sec
+LambdaNullNotNull.benchmarkNullableLambdaWithNull        thrpt   10  774473689.690 ±  2075972.756  ops/sec
+ReturnConstant.benchmarkReturnConstant10Times            thrpt   10   20989183.592 ±    61300.155  ops/sec
+ReturnConstant.benchmarkReturnConstant1Time              thrpt   10   20442966.220 ±   953738.930  ops/sec
+ReturnConstant.benchmarkReturnConstantC10Times           thrpt   10   19526882.205 ±   794707.937  ops/sec
+ReturnConstant.benchmarkReturnConstantC1Time             thrpt   10   18726501.240 ±  1655468.356  ops/sec

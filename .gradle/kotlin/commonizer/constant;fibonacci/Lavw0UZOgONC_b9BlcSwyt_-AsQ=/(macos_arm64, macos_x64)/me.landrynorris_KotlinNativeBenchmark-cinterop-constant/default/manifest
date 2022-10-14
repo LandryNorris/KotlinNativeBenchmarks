@@ -1,0 +1,13 @@
+abi_version=1.7.0
+builtins_platform=NATIVE
+commonizer_native_targets=macos_arm64 macos_x64
+commonizer_target=(macos_arm64, macos_x64)
+compiler_version=1.7.20
+depends=stdlib
+exportForwardDeclarations=
+interop=true
+ir_version=1.0.0
+metadata_version=1.4.1
+native_targets=macos_arm64 macos_x64
+package=constant
+unique_name=me.landrynorris\:KotlinNativeBenchmark-cinterop-constant
